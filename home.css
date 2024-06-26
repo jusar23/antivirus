@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+
+.card-oportunity:hover , .corousel-service:hover {
+    box-shadow: 0 0.1rem 0.4rem black;
+}
+
+.tittles {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+    color: #222D56;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+    height: flex;
+}
+
+.card-about { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: flex;
+    width: 100%;
+}
+
+.star-about {
+    width: 100%;
+    align-items: center;
+}
+
+.text1 {
+    float: left;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: black;
+    font-size: 25px;
+    width: 45%;
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.normal-text {
+    text-align: justify;
+    justify-content: center;
+    display: flex;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    width: 35%;
+    height: 35%; 
+    margin-right: 10%;
+}
+
+
+
+.card-oportunity {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    height: flex;
+    width: 100%;
+}
+
+.subcard-oportunity {
+    height: flex;
+    width: 100%;
+}
+
+.card-oportunity h2 {
+    display: flex;
+    color: #222D56;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.card-oportunity img {
+    border-radius: 20px;
+    border: 2px solid #222D56;
+    width: 50%;
+    height: 50%;
+}
+
+.corrusel-service {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.corousel-items {
+    width: 33%;
+    padding: 20px; 
+}
+
+.corousel-items h2 {
+    display: flex;
+    color: #222D56;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.corousel-items img {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: flex;
+    border-radius: 20px;
+    border: 2px solid #222D56;
+}
+
+.buttons-quiero {
+    display: flex;
+}
+
+.button-loquiero {
+    background-color: #81f0e7;
+    border-color: #81f0e7;
+    padding: 5% 15%;
+    margin-left: 80px;
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #222D56;
+    font-size: large;
+    align-items: center;
+}
