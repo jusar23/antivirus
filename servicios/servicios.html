@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>antivirus</title>
     <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="servicios.css">
 </head>
 <body>
-    <header class="navbar">
+    <header>
+        <h1>Bienvenido a Mi Página</h1>
         <nav>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
@@ -17,79 +18,28 @@
             </ul>
         </nav>
     </header>
-<section class="container-antivirus">
-    
-    <h1 class="tittles">¿ Quienes Somos ?</h1>
-
-    <div class="card-about">
-        <div class="star-about">
-        <p class="text1">En la Fundación Antivirus para la Deserción creemos que cada persona merece acceso a las mejores oportunidades. Por eso, ofrecemos una plataforma personalizada donde puedes explorar becas, cursos y
-        programas adaptados a tus intereses y necesidades.</p>
-
-        <img class="img" src="banco.svg">
-
-        </div>          
-    </div>
-
-    <h1 class="tittles">!Mira estas oportunidades¡</h1>
-    
-    <div class="card-oportunity">
-                    
-        <div class="subcard-oportunity">
-            <img src="Img/img-nodo.png" alt="imagen Nodo">
-            <h2>Nodo EAFIT</h2>
-            <span class="normal-text">!Aqui podras participar de programas de formación y talleres en la universidad EAFIT,
-                con enfoque en la era de la tecnología y de esa manera potenciar tus habilidades y conocimientos. !Animate 
-                e inscribete hoy!.
-            </span>
-        </div>
-        <div class="subcard-oportunity">
-            <img src="Img/img-velezreyes.png" alt="imagen velezreyez">
-            <h2>Becas vélezreyez+</h2>
-            <span class="normal-text">Nuestro aliado ofrece apoyo financiero a estudiantes destacados. Solicita tu beca y 
-                cumple con tus metas educativas.
-            </span>
-        </div>
-
-        <div class="subcard-oportunity">
-            <img src="Img/img-comfama.png" alt="imagen comfama">
-            <h2>Comfama</h2>
-            <p class="normal-text">Accede a programas educativos y recreativos con Comfama. Encuentra la oportunidad perfecta para tu crecimiento personal y profesional.
-            </p>
-        </div>
-        
-    </div>
-        <h1 class="tittles">Servicios</h1> 
-    <div class="corrusel-service">
-        
-        <div class="corousel-items">
-            <img src="Img/img-pro_vocation.png" alt="Pro-vocación">
-            <h2>Pro-Vocación</h2>
-            <span class="normal-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore
-                et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</span>
-            <button class="button-loquiero" type="menu">LO QUIERO</button>
-        </div>
-        <div class="corousel-items">
-            <img src="Img/img-advisory.png" alt="Asesoria">
-            <h2>Asesoria Sociopedagócica</h2>
-            <span class="normal-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore
-                et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</span>
-            <button class="button-loquiero" type="menu">LO QUIERO</button>
-         </div>
-
-        <div class="corousel-items">
-            <img src="Img/img-test.png" alt="Test">
-            <h2>Test Vocacional</h2>
-            <span class="normal-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore
-                et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</span>
-            <button class="button-loquiero" type="menu">LO QUIERO</button>
-        </div>
-        
-       </div>
-
-    </div>
-
-</section>
+    <main>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p>Este es el inicio de la página.</p>
+        </section>
+        <section id="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <p>Información sobre mí.</p>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
     <footer class="footer">
         <div class="main-content">
             <div class="text-left">
@@ -124,5 +74,6 @@
         </div>
         <button class="back-to-top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });"></button>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
