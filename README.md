@@ -14,7 +14,7 @@ subir cambios!!
 
 3 en la terminal pones " git commit -m 'nombre del cambio' "
 
-3 en la terminal pones " git push"
+3 en la terminal pones " git push origin update"
 
 actualizar la repo (cuando alguien subio un cambio y tu quieres tener ese cambio en tu repo local)
 
