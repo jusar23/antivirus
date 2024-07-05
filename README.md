@@ -18,4 +18,6 @@ subir cambios!!
 
 actualizar la repo (cuando alguien subio un cambio y tu quieres tener ese cambio en tu repo local)
 
-1 pones en la terminal " git fetch "
+1 pones en la terminal " git pull origin main "
+
+(tambien sirve si no les deja hacer el push)
