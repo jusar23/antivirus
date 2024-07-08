@@ -6,16 +6,51 @@
     <title>antivirus</title>
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="navbar.css">
+    <script src="https://kit.fontawesome.com/4cf64f9086.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="navbar">
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#sobre-mi">Sobre Mí</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
+        <nav class="navbar-menu-container">
+            <div class="navbar-top">
+                <ul class="navbar-menu">
+                    <li class="navbar-item"><a href="/index.html">Inicio</a></li>
+                    <li class="navbar-item"><a href="/servicios/servicios.html">Servicios</a></li>
+                    <li class="navbar-item"><a href="#">Oportunidades</a></li>
+                </ul>
+                <div class="navbar-logo">
+                    <img src="img/logo-simple.svg" alt="Logo" class="logo-img">
+                </div>
+                <div class="navbar-actions">
+                    <a href="#" class="navbar-action ingresa">
+                        Ingresa
+                        <span class="action-decoration">
+                            <div class="action-bar"></div>
+                            <div class="action-bar"></div>
+                            <div class="action-bar"></div>
+                        </span>
+                    </a>
+                    <a href="/Registro/registro.html" class="navbar-action registrate">
+                        Registrate
+                        <span class="action-decoration">
+                            <div class="action-bar"></div>
+                            <div class="action-bar"></div>
+                            <div class="action-bar"></div>
+                        </span>
+                    </a>
+                </div>
+            </div>
+           
         </nav>
+        <div class="navbar-search-container">
+            <div class="navbar-search-wrapper">
+                <div class="navbar-search">
+                    <button type="button" class="search-icon"><i class="fas fa-search"></i></button>
+                    <input type="text" placeholder="Busca tu próxima oportunidad">
+                </div>
+                <button type="button" class="filter-icon"><i class="fas fa-sliders-h"></i></button>
+            </div>
+        </div>
     </header>
 <section class="container-antivirus">
     
