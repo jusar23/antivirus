@@ -1,0 +1,31 @@
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #23526e;
+}
+.container {
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+.button {
+    background-color: #0b8f84;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.students {
+    width: 100%;
+    margin-top: 50px;
+}
+.benefits {
+    text-align: center;
+    margin-top: 50px;
+}
+.payment {
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
