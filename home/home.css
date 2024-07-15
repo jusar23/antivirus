@@ -6,3 +6,7 @@
     height: 200px; /* Ajusta la altura según tus necesidades */
     object-fit: cover; /* Mantiene la proporción de la imagen */
 }
+
+.titles {
+    margin: 20%;
+}
