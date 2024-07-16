@@ -4,14 +4,11 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-.text-left {
-    margin-top: 60px;
-}
-
 .d-block {
     
     color: white;
 }
+
 .d-block:hover {
     color:#81F0e7;
 }
