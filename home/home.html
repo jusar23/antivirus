@@ -20,9 +20,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="/novedades/novedades.html">novedades</a></li>
                         <li class="nav-item"><a class="nav-link" href="/index.html">Inicio</a></li>
                         <li class="nav-item"><a class="nav-link" href="/servicios/servicios.html">Servicios</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Oportunidades</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/donaciones/donaciones.html">Oportunidades</a></li>
                     </ul>
                     <div class="d-flex">
                         <a href="#" class="btn btn-outline-primary me-2">Ingresa</a>
@@ -44,107 +45,197 @@
         </div>
     </div>
     </header>
-    <section class="container mt-5 ">
-        <div class="card mb-3 border-0">
-            <h1 class="tittles text-center">¿Quiénes Somos?</h1>
-            <div class="row g-0">
-                <div class="col-md-7 d-flex align-items-center">
+
+    <div class="container md">
+
+        <h1 class="title text-center">¿Quienes Somos?</h1>
+
+        <div class="card mb-3 border-0 text-center">
+            <div class="row g-0 ">
+                <div class="col-md-6 d-flex align-items-center">
                     <div class="card-body">
-                        <p class="card-text">En la Fundación Antivirus para la Deserción creemos que cada persona merece acceso a las mejores oportunidades. Por eso, ofrecemos una plataforma personalizada donde puedes explorar becas, cursos y programas adaptados a tus intereses y necesidades.</p>
+                        <p class="card-text w-50 ">En la Fundación Antivirus para la Deserción creemos que
+                            cada persona merece acceso a las mejores oportunidades. Por eso, ofrecemos una plataforma
+                            personalizada donde puedes explorar becas, cursos y programas adaptados a tus intereses y necesidades.</p>
                     </div>
                 </div>
-                <div class="col-md-5">
-                    <a href="/servicios/servicios.html"><img src="/img/banco.svg" class="img-fluid rounded-start" alt="banco" width="200" height="200"></a>
-                </div>
-            </div>
-        </div>
-        </div>
-        <h1 class="tittles text-center">¡Mira estas oportunidades!</h1>
-        <div class="container mt-3">
-            <div class="row">
-                <div class="col-md-4 mb-3 d-flex align-items-stretch">
-                    <div class="card w-100">
-                        <img src="/Img/img-nodo.png" class="card-img-top card-img-custom" alt="imagen Nodo">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Nodo EAFIT</h5>
-                            <p class="card-text">¡Aquí podrás participar de programas de formación y talleres en la universidad EAFIT, con enfoque en la era de la tecnología y de esa manera potenciar tus habilidades y conocimientos. ¡Anímate e inscríbete hoy!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-3 d-flex align-items-stretch">
-                    <div class="card w-100">
-                        <img src="/Img/img-velezreyes.png" class="card-img-top card-img-custom" alt="imagen velezreyes">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Becas Vélezreyes+</h5>
-                            <p class="card-text">Nuestro aliado ofrece apoyo financiero a estudiantes destacados. Solicita tu beca y cumple con tus metas educativas.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-3 d-flex align-items-stretch">
-                    <div class="card w-100">
-                        <img src="/Img/img-comfama.png" class="card-img-top card-img-custom" alt="imagen comfama">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Comfama</h5>
-                            <p class="card-text">Accede a programas educativos y recreativos con Comfama. Encuentra la oportunidad perfecta para tu crecimiento personal y profesional.</p>
-                        </div>
-                    </div>
+                <div class="col-md-6">
+                    <img src="Img/banco.png" class="rounded float-end w-50" alt="aprender">
                 </div>
             </div>
         </div>
-        <h1 class="tittles mt-5 text-center">Servicios</h1>
-        <div class="container mt-3">
-            <div class="container mt-3">
-                <div class="row">
-                    <div class="col-md-4 mb-3 d-flex align-items-stretch">
-                        <div class="card w-100">
-                            <img src="/Img/img-pro_vocation.png" class="card-img-top" alt="Pro-vocación">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Pro-Vocación</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
-                                <div class="mt-auto">
-                                    <button class="btn btn-primary">LO QUIERO</button>
-                                </div>
+
+        <h1 class="title text-center">¡Mira estas oportunidades!</h1>
+
+        <div id="carouselOportunities" class="carousel slide mt-5">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+
+                    <div class="row justify-content-center">
+                        <div class="card col-md-4 m-3" style="width: 18rem;">
+                            <img src="Img/img-nodo.png" class="card-img-fluid m-3" alt="Nodo">
+                            <div class="card-body">
+                                <h5 class="card-title">Nodo EAFIT</h5>
+                                <p class="card-text">¡Aquí podrás participar de programas de formación y talleres en la
+                                    universidad EAFIT, con enfoque en la era de la tecnología y de esa manera potenciar
+                                    tus habilidades y conocimientos. ¡Anímate e inscríbete hoy!</p>
+                                <a href="#" class="btn btn-primary">Click aqui para conocer más</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 mb-3 d-flex align-items-stretch">
-                        <div class="card w-100">
-                            <img src="/Img/img-test.png" class="card-img-top" alt="Asesoria">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Asesoria Sociopedagócica</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
-                                <div class="mt-auto">
-                                    <button class="btn btn-primary">LO QUIERO</button>
-                                </div>
+                        <div class="card col-md-4 m-3" style="width: 18rem;">
+                            <img src="Img/img-velezreyes.png" class="card-img-fluid m-3" alt="velezreyes">
+                            <div class="card-body">
+                                <h5 class="card-title">Becas Vélezreyes+</h5>
+                                <p class="card-text h-50">Nuestro aliado ofrece apoyo financiero a estudiantes destacados.
+                                    Solicita tu beca y cumple con tus metas educativas.</p>
+                                <a href="#" class="btn btn-primary">Click aqui para conocer más</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 mb-3 d-flex align-items-stretch">
-                        <div class="card w-100">
-                            <img src="/Img/img-test.png" class="card-img-top" alt="Test">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Test Vocacional</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
-                                <div class="mt-auto">
-                                    <a href="/donaciones/donaciones.html"><button class="btn btn-primary">LO QUIERO</button></a>
-                                </div>
+                        <div class="card col-md-4 m-3 " style="width: 18rem;">
+                            <img src="Img/img-comfama.png" class="card-img-fluid m-3" alt="comfama">
+                            <div class="card-body">
+                                <h5 class="card-title">Comfama</h5>
+                                <p class="card-text h-50">Accede a programas educativos y recreativos con Comfama. Encuentra
+                                    la oportunidad perfecta para tu crecimiento personal y profesional.</p>
+                                <a href="#" class="btn btn-primary">Click aqui para conocer más</a>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="card col-md-4 m-3" style="width: 18rem;">
+                                <img src="Img/img-nodo.png" class="card-img-fluid m-3" alt="Nodo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nodo EAFIT</h5>
+                                    <p class="card-text">¡Aquí podrás participar de programas de formación y talleres en
+                                        la universidad EAFIT, con enfoque en la era de la tecnología y de esa manera
+                                        potenciar tus habilidades y conocimientos. ¡Anímate e inscríbete hoy!</p>
+                                    <a href="#" class="btn btn-primary">Click aqui para conocer más</a>
+                                </div>
+                            </div>
+                            <div class="card col-md-4 m-3" style="width: 18rem;">
+                                <img src="Img/img-velezreyes.png" class="card-img-fluid m-3" alt="velezreyes">
+                                <div class="card-body">
+                                    <h5 class="card-title">Becas Vélezreyes+</h5>
+                                    <p class="card-text">Nuestro aliado ofrece apoyo financiero a estudiantes
+                                        destacados. Solicita tu beca y cumple con tus metas educativas.</p>
+                                    <a href="#" class="btn btn-primary">Click aqui para conocer más</a>
+                                </div>
+                            </div>
+                            <div class="card col-md-4 m-3" style="width: 18rem;">
+                                <img src="Img/img-comfama.png" class="card-img-fluid m-3" alt="comfama">
+                                <div class="card-body">
+                                    <h5 class="card-title">Comfama</h5>
+                                    <p class="card-text">Accede a programas educativos y recreativos con Comfama.
+                                        Encuentra la oportunidad perfecta para tu crecimiento personal y profesional.</p>
+                                    <a href="#" class="btn btn-primary">Click aqui para conocer más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselOportunities"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselOportunities"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </div>
-            
-            <button class="carousel-control-prev" type="button" data-bs-target="#Deslizar" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#Deslizar" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </section>
-    <footer class="footer mt-5 py-3 ">
+
+                <h1 class="title text-center">Servicios</h1>
+
+                <div id="carouselServices" class="carousel slide mt-5">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+
+                            <div class="row justify-content-center">
+                                <div class="card col-md-4 m-3" style="width: 18rem;">
+                                    <img src="Img/img-pro_vocation.png" class="card-img-fluid m-3" alt="Pro-Vocación">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Pro-Vocación</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                            veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+                                        <a href="#" class="btn btn-primary">Click aqui para conocer más</a>
+                                    </div>
+                                </div>
+                                <div class="card col-md-4 m-3" style="width: 18rem;">
+                                    <img src="Img/img-advisory.png" class="card-img-fluid m-3" alt="Asesoria">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Asesoria Sociopedagócica</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                            veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+                                        <a href="#" class="btn btn-primary">Click aqui para conocer más</a>
+                                    </div>
+                                </div>
+                                <div class="card col-md-4 m-3" style="width: 18rem;">
+                                    <img src="Img/img-test.png" class="card-img-fluid m-3" alt="Test">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Test Vocacional</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut.</p>
+                                        <a href="#" class="btn btn-primary">Click aqui para conocer más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row justify-content-center">
+                                <div class="card col-md-4 m-3" style="width: 18rem;">
+                                    <img src="Img/img-pro_vocation.png" class="card-img-fluid m-3" alt="Pro-Vocación">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Pro-Vocación</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Sed do iusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                            veniam,quis nostrud exercitation ullamco laboris nisi ut.</p>
+                                        <a href="#" class="btn btn-primary">Click aqui para conocer más</a>
+                                    </div>
+                                </div>
+                                <div class="card col-md-4 m-3" style="width: 18rem;">
+                                    <img src="Img/img-advisory.png" class="card-img-fluid m-3" alt="Asesoria">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Asesoria Sociopedagócica</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                            veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+                                        <a href="#" class="btn btn-primary">Click aqui para conocer más</a>
+                                    </div>
+                                </div>
+                                <div class="card col-md-4 m-3" style="width: 18rem;">
+                                    <img src="Img/img-test.png" class="card-img-fluid m-3" alt="Test">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Test Vocacional</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                            veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+                                        <a href="#" class="btn btn-primary">Click aqui para conocer más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselServices"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselServices"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+ <!-- footer -->
+    <footer class="footer mt-5 py-3">
         <div class="container">
             <div class="row">
                 <div class="text-left col-md-3 fs-4 mt-5">
