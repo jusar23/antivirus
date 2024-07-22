@@ -31,14 +31,20 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-bottom: 20px;
 }
 
-.carousel-item img {
+.card-img-top {
     width: 100%;
-    height: 280px;
+    height: 200px; /* Ajusta esta altura según lo que necesites */
+    object-fit: cover; /* Mantiene el aspecto y recorta el resto si es necesario */
+}
+
+
+.carousel-item img {
+    width: 450px;
+    height:450px;
     object-fit: cover;
-    border-radius: 50px;
+    
   }
   .carousel-inner {
-    max-width: 600px;
     margin: auto;
   }
   
