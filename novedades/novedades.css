@@ -1,11 +1,12 @@
 .tittles{
 color: #222D56;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 40px;
 }
 
 
 .filter-container {
-    margin-top: 20px;
+    margin-top: 50px;
     padding: 20px;
     background-color: #f8f9fa;
     border-radius: 5px;
@@ -44,10 +45,17 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     object-fit: cover;
     
   }
-  .carousel-inner {
+.carousel-inner {
     margin: auto;
   }
   
+  @media (max-width: 768px) {
+    .carousel-item img {
+        width: 450px;
+        height:500px;
+        object-fit: contain;
+        margin-bottom: auto;
+        
+      }
 
-
-
+  }
