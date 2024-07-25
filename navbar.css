@@ -1,6 +1,6 @@
 /* Estilos para el navbar */
 .custom-navbar {
-    background: linear-gradient(to right, #1e3c72, #6b92d6);
+    background: #06407a;
     padding: 0.5rem 2rem;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
@@ -27,7 +27,7 @@
 }
 
 .navbar-nav .nav-link:hover {
-    color: #FFD700 !important;
+    color: #81F0e7;
 }
 
 .navbar-actions {
@@ -45,8 +45,7 @@
 }
 
 .custom-btn:hover {
-    background-color: #FFA500;
-    color: white;
+    background-color: #81F0e7;
 }
 
 .custom-btn::after {
