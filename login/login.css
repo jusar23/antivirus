@@ -5,22 +5,27 @@ body{
 }
 
 
-img{
-    max-width: 100%; /*para que la imagen se vea completa siempre*/
-    display: block; /*Elimina espacio*/
+
+.img-robot img{
+    max-width: 100%; 
+    display: block; 
     height: 100%;
 }
+
 
 a{
     text-decoration: none;
 }
 
-.container{
+
+
+main{
     max-width: 95%;
     margin: 0 auto;
     display: flex;
-
 }
+
+
 
 .form-text{
     max-width: 90%;
@@ -30,6 +35,7 @@ a{
 .form-text h2 , h1{
     margin: 0;
 }
+
 
 .form-text h2{
     margin-top: 30px;
@@ -54,6 +60,23 @@ a{
     background-color: white;
     border-radius: 5px;
 }
+
+@media ( max-width: 780px ) {
+    main{
+        display: unset;
+        max-width: 100%;
+    }
+
+    .img-robot{
+        display: none;
+    }
+
+    .form-container{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
 
 .buttons-login{
     display: flex;
@@ -83,7 +106,6 @@ a{
     color: #4285f4;
 }
 
-/* codigo para la linea y en medio el o */
 
 .line-container {
     display: flex;
@@ -120,15 +142,17 @@ a{
     position: relative;
 }
 
-/* formulario */
+/* formulario  */
+
+
 .grup-input{
     position: relative;
     margin: 10px 0;
 }
 
 .grup-input input{
-    width: 93%;
-    height: 20px;
+    width: 100%;
+    height: 50px;
     padding: 12px 0px 12px 50px;
     margin-bottom: 12px;
     outline: none;
@@ -147,14 +171,8 @@ input::placeholder {
     margin-left: 15px;
     top: 12px;
     font-size: 20px;
-    color: orange;
+    color: rgb(68, 68, 247)
 }
-
-
-
-
-
-
 
 
 .last-part{
@@ -164,52 +182,54 @@ input::placeholder {
 }
 
 .last-part a{
-    color: orange;
+    color: rgb(68, 68, 247);
 }
 
-/* Estilo base para el checkbox real (oculto) */
+
 .checkbox-custom {
     display: none;
 }
   
-  /* Estilo para el label que actuará como el checkbox visual */
+
 .checkbox-custom + label {
     position: relative;
-    padding-left: 25px; /* Espacio para el pseudo-elemento que simula el checkbox */
+    padding-left: 25px; 
     cursor: pointer;
 }
-  
-  /* Pseudo-elemento que simula el checkbox */
+
+
+
 .checkbox-custom + label:before {
     content: '';
     position: absolute;
     left: 0;
     top: 0;
-    width: 15px; /* Tamaño del checkbox simulado */
-    height: 15px; /* Tamaño del checkbox simulado */
-    background-color: white; /* Fondo del checkbox simulado */
-    border: 2px solid #ddd; /* Borde del checkbox simulado, quitar o cambiar color aquí */
-    border-radius: 4px; /* Redondeo del checkbox simulado */
+    width: 15px; 
+    height: 15px;
+    background-color: white; 
+    border: 2px solid #ddd; 
+    border-radius: 4px; 
 }
   
-  /* Cambiar el estilo cuando el checkbox está marcado */
+
 .checkbox-custom:checked + label:before {
-    background-color: orange; /* Color de fondo cuando está marcado */
-    border-color: black; /* Color del borde cuando está marcado */
+    background-color: rgb(68, 68, 247); 
+    border-color: black; 
 }
   
-  /* Opcional: Estilo para el ícono de verificación (puede ser una imagen o un pseudo-elemento) */
+  
 .checkbox-custom:checked + label:after {
-    content: ''; /* Aquí puedes usar un ícono o imagen */
+    content: ''; 
     position: absolute;
-    /* Ajusta estos valores según el diseño del ícono de verificación */
+    
 }
+
 
 
 .submit{
     width: 100%;
     border-radius: 5px;
-    background-color: orange;
+    background-color: rgb(68, 68, 247);
     padding: 0.9rem 1.5rem;
     color: white;
     font-weight: bold;
@@ -224,5 +244,6 @@ input::placeholder {
 }
 
 .text-register a{
-    color: orange;
+    color: rgb(68, 68, 247);
 }
+ 
