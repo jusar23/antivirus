@@ -171,7 +171,7 @@ input::placeholder {
     margin-left: 15px;
     top: 12px;
     font-size: 20px;
-    color: rgb(68, 68, 247)
+    color: #2c9bc7
 }
 
 
@@ -182,7 +182,7 @@ input::placeholder {
 }
 
 .last-part a{
-    color: rgb(68, 68, 247);
+    color: #2c9bc7;
 }
 
 
@@ -213,7 +213,7 @@ input::placeholder {
   
 
 .checkbox-custom:checked + label:before {
-    background-color: rgb(68, 68, 247); 
+    background-color: #0b8f84; 
     border-color: black; 
 }
   
@@ -229,7 +229,7 @@ input::placeholder {
 .submit{
     width: 100%;
     border-radius: 5px;
-    background-color: rgb(68, 68, 247);
+    background-color: #06407a;
     padding: 0.9rem 1.5rem;
     color: white;
     font-weight: bold;
@@ -244,6 +244,6 @@ input::placeholder {
 }
 
 .text-register a{
-    color: rgb(68, 68, 247);
+    color: #06407a;
 }
  
