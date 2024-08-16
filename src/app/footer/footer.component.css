@@ -40,16 +40,3 @@
 .footer .text-end {
     align-self: flex-end;
 }
-
-.icon {
-    fill: white;
-    
-}
-
-.icon:hover {
-    fill: #81F0e7;
-}
-
-.icon2 {
-    fill: #06407a;
-}

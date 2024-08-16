@@ -12,6 +12,7 @@ import { RegistroComponent } from './registro/registro.component';
 import { OportunidadesComponent } from './oportunidades/oportunidades.component';
 import { LogingComponent } from './loging/loging.component';
 import { DonacionesComponent } from './donaciones/donaciones.component';
+import { BotonWhatsappComponent } from './boton-whatsapp/boton-whatsapp.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { DonacionesComponent } from './donaciones/donaciones.component';
     RegistroComponent,
     OportunidadesComponent,
     LogingComponent,
-    DonacionesComponent
+    DonacionesComponent,
+    BotonWhatsappComponent
   ],
   imports: [
     BrowserModule,
