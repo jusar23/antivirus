@@ -1,0 +1,88 @@
+.custom-navbar {
+    background-color: #06407a;
+    padding: 0.5rem 1rem;
+    margin: 1.5rem 0;
+}
+
+.logo-img {
+    border-radius: 50%;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #81F0e7 !important;
+}
+
+.custom-btn {
+    color: #152D5C;
+    background-color: white;
+    padding: 0.5rem 2rem;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-btn:hover {
+    background-color: #81F0e7;
+    color: #06407a;
+}
+
+.custom-btn::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 20px;
+    background: linear-gradient(to bottom, #1e3c72 33%, #4a69bd 33%, #4a69bd 66%, #40E0D0 66%);
+}
+
+.navbar-actions .custom-btn:last-child::after {
+    background: linear-gradient(to bottom, #B24592 33%, #F15F79 33%, #F15F79 66%, #40E0D0 66%);
+}
+
+.navbar-search-container {
+    background-color: #06407a;
+    padding: 0.5rem 0;
+}
+
+.input-group {
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.input-group-text, .form-control {
+    border: none;
+    background-color: white;
+}
+
+.search-icon {
+    font-size: 1.25rem;
+}
+
+@media (min-width: 992px) {
+    .pages-nav {
+        margin-left: 5%;
+    }
+    
+    .navbar-actions {
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-actions {
+        margin-top: 1rem;
+    }
+    .custom-btn {
+        display: block;
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+}
