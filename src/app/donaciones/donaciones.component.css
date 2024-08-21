@@ -1,10 +1,4 @@
-.carousel-caption h5 {
-    font-size: 50px;
-    color: #0b8f84;
-}
-.carousel-caption p {
-    font-size: 30px;
-}
+
 .carousel-indicators .inactivo {
     background-color: #81F0e7;
     padding: .1%;
@@ -15,7 +9,3 @@
     padding: .1%;
 }
 
-/* .carousel-control-prev,
-.carousel-control-next {
-    background-color: #bafff2; 
-} */

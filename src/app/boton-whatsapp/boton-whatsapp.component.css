@@ -1,6 +1,6 @@
 .floating-btn {
     position: fixed;
-    bottom: 70px;
-    right: 30px;
+    bottom: 75px;
+    right: 40px;
     display: flex;
 }
