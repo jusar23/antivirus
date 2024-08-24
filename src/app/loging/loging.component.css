@@ -1,35 +1,66 @@
+body{
+    background-color: azure;
+    font-family: "Rubik", sans-serif;
+    margin: 0;
+}
+
+
+
 .img-robot img{
     max-width: 100%; 
     display: block; 
     height: 100%;
 }
+
+
+a{
+    text-decoration: none;
+}
+
+
+
 main{
     max-width: 95%;
+    margin: 0 auto;
     display: flex;
 }
+
+
+
 .form-text{
     max-width: 90%;
     margin: 0 auto;
 }
+
+.form-text h2 , h1{
+    margin: 0;
+}
+
+
 .form-text h2{
     margin-top: 30px;
     font-size: 40px;
 }
+
 .form-text h1{
     font-size: 50px;
     font-weight: bold;
     color: #06407a;
 }
+
+
 .img-robot{
     width: 40%;
     height: 700px;
 }
+
 .form-container{
     width: 60%;
     border: 2px solid rgb(222, 221, 221);
     background-color: white;
     border-radius: 5px;
 }
+
 @media ( max-width: 780px ) {
     main{
         display: unset;
@@ -45,12 +76,15 @@ main{
         margin: 0 auto;
     }
 }
+
+
 .buttons-login{
     display: flex;
     flex-direction: column;
     row-gap: 15px;
     margin-top: 40px;
 }
+
 .buttons-login a{
     max-width: 100%;
     border: 2px solid rgb(222, 221, 221);
@@ -60,15 +94,19 @@ main{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     color: black;
 }
+
 .icon-spacing {
     margin-right: 10px;
 }
 .bi-google{
     color: #ea4335;
 }
+
 .bi-facebook{
     color: #4285f4;
 }
+
+
 .line-container {
     display: flex;
     justify-content: center;
@@ -76,6 +114,7 @@ main{
     position: relative;
     height: 50px; 
 }
+
 .line-container::before,
 .line-container::after {
     content: "";
@@ -86,6 +125,14 @@ main{
     width: 50%; 
 }
 
+.line-container::before {
+    left: 0;
+}
+
+.line-container::after {
+    right: 0;
+}
+
 .circle {
     background-color: white; 
     color: rgb(123, 122, 122);
@@ -94,17 +141,31 @@ main{
     z-index: 1; 
     position: relative;
 }
+
+/* formulario  */
+
+
 .grup-input{
     position: relative;
     margin: 10px 0;
 }
+
 .grup-input input{
     width: 100%;
     height: 50px;
     padding: 12px 0px 12px 50px;
     margin-bottom: 12px;
     outline: none;
+    color: black;
+    background-color: rgb(243, 242, 242);
+    border: 2px solid grey;
 }
+
+.grup-input
+input::placeholder {
+    color: gray;
+}
+
 .grup-input i{
     position: absolute;
     margin-left: 15px;
@@ -112,50 +173,77 @@ main{
     font-size: 20px;
     color: #2c9bc7
 }
+
+
 .last-part{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 .last-part a{
     color: #2c9bc7;
 }
+
+
 .checkbox-custom {
     display: none;
 }
+  
+
 .checkbox-custom + label {
     position: relative;
     padding-left: 25px; 
     cursor: pointer;
 }
+
+
+
 .checkbox-custom + label:before {
     content: '';
     position: absolute;
+    left: 0;
+    top: 0;
     width: 15px; 
     height: 15px;
-    background-color: white;  
+    background-color: white; 
+    border: 2px solid #ddd; 
     border-radius: 4px; 
 }
+  
+
 .checkbox-custom:checked + label:before {
     background-color: #0b8f84; 
+    border-color: black; 
 }
+  
+  
 .checkbox-custom:checked + label:after {
     content: ''; 
     position: absolute;
+    
 }
+
+
+
 .submit{
     width: 100%;
     border-radius: 5px;
     background-color: #06407a;
     padding: 0.9rem 1.5rem;
     color: white;
+    font-weight: bold;
     font-size: 15px;
     border: none;
+    margin-top: 20px;
 }
+
 .text-register{
     text-align: center;
     margin-top: 30px;
 }
+
 .text-register a{
     color: #06407a;
 }
+ 
